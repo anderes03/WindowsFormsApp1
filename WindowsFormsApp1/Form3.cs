@@ -33,5 +33,19 @@ namespace WindowsFormsApp1
             fr2.Show();
             Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form2 fr2 = new Form2();
+            fr2.Show();
+            Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form5 fr5 = new Form5();
+            fr5.Show();
+            Hide();
+        }
     }
 }
